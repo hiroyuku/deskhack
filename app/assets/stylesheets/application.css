@@ -13,6 +13,11 @@ address,caption,cite,code,dfn,em,strong,th,var {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    width: 100%;
+}
+
+table tbody {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 caption,th {
     text-align: left;
@@ -158,6 +163,7 @@ div#wrapper{
     margin: 0px auto;
     padding: 48px;
     clear: left;
+    background-color: #f0f1f1;
 }
 
 /* --------------------------------------------------------
@@ -171,7 +177,8 @@ header {
     position: fixed;
     right: 0px;
     left: 0px;
-    border-bottom: 1px solid rgba(0,0,0,0.15);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #nav {
@@ -202,16 +209,16 @@ header {
     float: left;
 }
 
-#wrapper .contents .top_contents_column_img {
+#wrapper .top_contents_column_img {
     width: 120px;
-    margin: 10px;
+    margin-left: 12px;
 }
 
 .top_contents_column_user {
     width: 40px;
     height: 40px;
-    margin: 10px 0px;
     vertical-align: top;
+    float: left;
 }
 
 .top_contents_new {
@@ -236,15 +243,52 @@ header {
     margin: 10px;
 }
 
+.table-box{
+    width: 308px;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 18px 6px;
+    background-color: #FFFFFF;
+    float: left;
+}
 
+.table_box_img {
+    height: 110px;
+    width: 140px;
+    float: left;
+}
 
+.table_box_img_user {
+    float: right;
+    width: 165px;
+    height:110px;
+    overflow: hidden;
+}
 
+.box_contents {
+    height: 100px;
+    margin-top: 12px;
+}
 
+#box_table_new {
+    display: inline-block;
+    background-color: #FFF;
+    width: 952px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 6px;
 
+}
 
-
-
-
+.top_contents_column_user_new {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    vertical-align: top;
+    float: left;
+    margin-left: 10px;
+}
 
 
 
