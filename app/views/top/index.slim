@@ -1,105 +1,114 @@
-== render 'header'
+= render 'header'
 #wrapper
-  .table-box
+  section.table-box
     table
       tbody
         tr
           th style=("padding: 10px 110px;")  RANKING
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; margin: 8px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; margin: 8px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
     p style=("text-align: right; margin-right: 10px;")  MORE >
-  .table-box
+  section.table-box
     table
       tbody
         tr
           th style=("padding: 10px 110px;")  HOT USER
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; margin: 8px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; margin: 8px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; margin: 8px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
     p style=("text-align: right; margin-right: 10px;")  MORE >
-  .table-box
+  section.table-box
     table
       tbody
         tr
           th style=("padding: 10px 110px;")  HOT TAG
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; margin: 8px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; margin: 8px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
-    .box_contents
+    article.box_contents
       .table_box_img
         img.top_contents_column_img src="/assets/sample.jpg"
       .table_box_img_user
         img.top_contents_column_user src="/assets/son_masayoshi.jpeg"
-          p style=("width: 96px; margin: 8px; display: inline-block;")
-            | 西村直人
-            br 西村直人
+          .box_contents_text
+            p
+              | 西村直人
+              br 西村直人
           p あああああああああああ
     p style=("text-align: right; margin-right: 10px;")  MORE >
-  #box_table_new
+  section#box_table_new
     table
       tbody
         tr
@@ -108,11 +117,25 @@
       tbody
         tr
           td
-            img src="/assets/sample.jpg" style=("width:296px; height:230px; margin:10px;")
-          td style=("border-left:1px solid; border-right:1px solid;")
-            img src="/assets/sample.jpg" style=("width:296px; height:230px; margin:10px;")
+            .ho
+              a href=""
+                img src="/assets/sample.jpg" style=("width:296px; height:230px; margin:10px;")
+                  span.demo1
+                    img.top_contents_column_user_new src="/assets/son_masayoshi.jpeg"
+                      p style=("width: 96px; margin: 8px; display: inline-block;")
+                        | 西村直人
+                        br 西村直人
           td
-            img src="/assets/sample.jpg" style=("width:296px; height:230px; margin:10px;")
+            .ho
+              a href=""
+                img src="/assets/sample.jpg" style=("width:296px; height:230px; margin:10px;")
+                  span.demo1
+          td
+            .ho
+              a href=""
+                img src="/assets/sample.jpg" style=("width:296px; height:230px; margin:10px;")
+                  span.demo1
+                    h1 創造Webの元の記事に戻る
         tr
           td
             p style="margin-left:12px;"  aaaaaaaaaaaaaaaa
