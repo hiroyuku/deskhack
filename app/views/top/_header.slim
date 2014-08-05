@@ -6,5 +6,11 @@ header
     li.global_nav POST
     li.global_nav ABOUT
     li.global_nav HELP
-    li.global_nav タグを検索
-    li.global_nav LOGIN / SIGN UP
+    li.global_nav
+      form
+        input#design02.textbox name="design02" type="text" /
+    li.global_nav
+      - if logged_in?
+        = link_to 'ログアウト', logout_path
+      - else
+        = link_to 'Twitterでログイン', '/auth/twitter'

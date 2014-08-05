@@ -2,8 +2,8 @@ Rails.application.routes.draw do
 
   get 'top/index'
   root to: 'top#index'
-
-  resources :message
+  get '/auth/:provider/callback' => 'sessions#create'
+  get '/logout' => 'sessions#destroy', as: :logout
 
 
 end
