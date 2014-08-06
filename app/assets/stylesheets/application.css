@@ -155,7 +155,14 @@ html{
 }
 
 body{
-    background-color: #F1F1F1;
+    background: #F1F1F1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cecece));
+    background: -moz-linear-gradient(top, rgba(243, 243, 243, 1), #cecece);
+    background: -o-linear-gradient(top, rgba(243, 243, 243, 1), #cecece);
+    background: -ms-linear-gradient(top, rgba(243, 243, 243, 1), #cecece);
+    background: linear-gradient(top, rgba(243, 243, 243, 1), #cecece);
+    -background: linear-gradient(top, rgba(243, 243, 243, 1), #cecece);
+    -pie-background: linear-gradient(top, rgba(243, 243, 243, 1), #cecece);
 }
 
 div#wrapper{
@@ -163,7 +170,7 @@ div#wrapper{
     margin: 0px auto;
     padding: 48px;
     clear: left;
-    background-color: #f0f1f1;
+    /*background-color: #f0f1f1;*/
 }
 
 /* --------------------------------------------------------
