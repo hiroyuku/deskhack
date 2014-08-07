@@ -11,8 +11,8 @@ header
     li.global_nav
       form
         input#design02.textbox name="design02" type="text" /
-    li.global_nav
       - if logged_in?
-        = link_to 'ログアウト', logout_path
+        li.global_nav= link_to(image_tag(@twitter_user.image_url, :class => "top_img_icon"), '/')
+        li.global_nav= link_to 'ログアウト', logout_path
       - else
-        = link_to 'Twitterでログイン', '/auth/twitter'
+        li.global_nav= link_to 'Twitterでログイン', '/auth/twitter'

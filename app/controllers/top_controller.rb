@@ -4,6 +4,7 @@ class TopController < ApplicationController
   helper_method :logged_in?
 
   def index
+    @twitter_user = TwitterUser.find(session[:user_id]) if session[:user_id].present?
 
   end
 
