@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get '/auth/:provider/callback' => 'sessions#create'
   get '/logout' => 'sessions#destroy', as: :logout
 
-
+  get "posts/index"
+  resources :mypage
 end
