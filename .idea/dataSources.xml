@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2664478816">
+    <data-source source="LOCAL" name="Rails deskpow: development" uuid="42b459a0-8e30-46ac-918d-500f9b84377d">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/deskhack_dev</jdbc-url>
+      <user-name>deskhack_dev</user-name>
+      <user-password>dfcedfcfdfd9dfc1dfc2dfcbdfc9dfc1dff5dfcedfcfdfdc</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails deskpow: test" uuid="1b940a97-2480-44ba-a94f-da8578980902">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/deskhack_test</jdbc-url>
+      <user-name>deskhack_test</user-name>
+      <user-password>dfcedfcfdfd9dfc1dfc2dfcbdfc9dfc1dff5dfdedfcfdfd9dfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails deskpow: production" uuid="02b2ed42-3a52-4b42-88bc-2a25ea3d04da">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/deskhack_production</jdbc-url>
+      <user-name>deskhack</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfeedfefdff9dfe1dfe2dfebdfe9dfe1dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
