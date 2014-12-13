@@ -5,7 +5,6 @@ class TopController < ApplicationController
 
   def index
     @twitter_user = TwitterUser.find(session[:user_id]) if session[:user_id].present?
-
   end
 
   private

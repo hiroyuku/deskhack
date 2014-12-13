@@ -7,4 +7,8 @@ Rails.application.routes.draw do
 
   get "posts/index"
   resources :mypage
+
+  # ------------------------- エラー処理 -------------------------
+  get  '*not_found' => 'application#routing_error'
+  post '*not_found' => 'application#routing_error'
 end
